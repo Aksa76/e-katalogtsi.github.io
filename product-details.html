@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Detail Produk - TIGER STAR INDONESIA</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon1.png" rel="icon">
+  <link href="assets/img/TSI.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    /* HEADER HITAM */
+    .header {
+      background: #000 !important;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3) !important;
+    }
+    /* JARAK DARI HEADER BIAR GK KETUTUPAN */
+    .main {
+      padding-top: 100px;
+    }
+    
+    .product-detail.section {
+      padding-top: 80px;
+      padding-bottom: 40px;
+    }
+
+    /* STYLE TAMBAHAN UNTUK PRODUK */
+    .product-image-container {
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    .product-specs ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .product-specs li {
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+    }
+    
+    .product-specs li:last-child {
+      border-bottom: none;
+    }
+    
+    .btn-contact {
+      margin: 5px;
+      padding: 12px 20px;
+      border-radius: 5px;
+      font-weight: 500;
+    }
+  </style>
+</head>
+
+<body class="product-details-page">
+
+  <!-- HEADER HITAM -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">TIGER STAR INDONESIA</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <!-- LINK KE INDEX.HTML DENGAN ANCHOR -->
+          <li><a href="index.html#hero" class="active">Home</a></li>
+          <li><a href="index.html#about">Tentang Kami</a></li>
+          <li><a href="index.html#portfolio">Produk</a></li>
+          <li><a href="index.html#features">Sertifikasi</a></li>
+          <li><a href="index.html#contact-product">Contact</a></li>
+          
+          <!-- DROPDOWN BAHASA - DI AKHIR -->
+          <li class="dropdown language-dropdown">
+            <a href="#">
+              <img src="assets/img/flags/idn.png" alt="ID" class="flag-icon">
+              <i class="bi bi-chevron-down toggle-dropdown"></i>
+            </a>
+            <ul>
+              <li>
+                <a href="index.html">
+                  <img src="assets/img/flags/idn.png" alt="Indonesia" class="flag-icon">
+                  Indonesia
+                </a>
+              </li>
+              <li>
+                <a href="404_en.html">
+                  <img src="assets/img/flags/eng.png" alt="English" class="flag-icon">
+                  English
+                </a>
+              </li>
+              <li>
+                <a href="404_zh.html">
+                  <img src="assets/img/flags/zh.png" alt="Taiwan" class="flag-icon">
+                  台灣中文
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Product Detail Section -->
+    <section id="product-detail" class="product-detail section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2 id="detailProductName">Detail Produk</h2>
+        <p id="detailProductDescription">Memuat informasi produk...</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4 align-items-center">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="product-image-container">
+              <img id="detailProductImage" src="" alt="" class="img-fluid">
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="product-content ps-0 ps-lg-3">
+              
+              <h3>Spesifikasi Produk:</h3>
+              <div class="product-specs">
+                <ul id="detailProductSpecs">
+                  <li><i class="bi bi-check-circle"></i> Memuat spesifikasi produk...</li>
+                </ul>
+              </div>
+
+              <div class="product-actions mt-4">
+                <a href="index.html#portfolio" class="btn btn-outline-primary">
+                  <i class="bi bi-arrow-left"></i> Kembali ke Produk
+                </a>
+                <a href="#contact-product" class="btn btn-primary">
+                  <i class="bi bi-whatsapp"></i> Konsultasi Sekarang
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Product Detail Section -->
+
+    <!-- Contact Section untuk Produk -->
+    <section id="contact-product" class="contact-product section light-background">
+
+        <div class="container">
+
+            <div class="section-title text-center" data-aos="fade-up">
+              <h2>Minat dengan produk ini?</h2>
+              <p>Hubungi kami sekarang untuk informasi lebih lanjut dan penawaran terbaik</p>
+            </div>
+          
+            <div class="row justify-content-center">
+              <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+                <div class="contact-section text-center">
+                  <div class="contact-buttons">
+                    <!-- TELEPON - Pakai btn-light biar keliatan -->
+                    <a href="tel:+62-21-3003290" class="btn btn-light btn-contact">
+                      <i class="bi bi-telephone"></i> Telepon
+                    </a>
+                    
+                    <!-- EMAIL - Pakai btn-light biar keliatan -->
+                    <a href="mailto:tigerstar.indonesia@yahoo.co.id" class="btn btn-light btn-contact">
+                      <i class="bi bi-envelope"></i> Email
+                    </a>
+          
+                    <!-- WhatsApp juga bagus ditambah -->
+                    
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </section><!-- /Contact Product Section -->
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer dark-background">
+
+    
+    <div class="container footer-top">
+        <div class="row gy-4">
+          <!-- Kolom Kiri - Info Perusahaan -->
+          <div class="col-lg-6 col-md-6 footer-about">
+            <a href="index.html" class="d-flex align-items-center">
+              <span class="sitename">TIGER STAR INDONESIA</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>Jl. Kawasan Industri Terpadu Indonesia</p>
+              <p>China Kav. 39, 40A, RW.GIIC, Kota Deltamas, Kec. Cikarang Pusat, 17530</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>+62 21 3003 2900</span></p>
+              <p><strong>Email:</strong> <span>tigerstar.indonesia@yahoo.co.id</span></p>
+            </div>
+          </div>
+       
+
+        <!-- Kolom Kanan - Follow Us -->
+        <div class="col-lg-6 col-md-6">
+            <h4>Follow Us</h4>
+            <p>Ikuti kami untuk informasi terbaru tentang produk dan layanan kami</p>
+            <div class="social-links d-flex">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-youtube"></i></a>
+              <a href="#"><i class="bi bi-whatsapp"></i></a>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span id="currentYear"></span> <strong class="px-1 sitename">TIGER STAR INDONESIA</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://Nand-Tech.com" target="_blank">Nand-Tech</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Product Detail Script -->
+  <script>
+    // Data produk
+    const productDetailsData = {
+      'spandek-1': {
+        name: 'Spandek 1',
+        description: 'Spandek dengan gelombang 11 bulat yang memberikan kekuatan dan estetika yang optimal untuk atap bangunan Anda.',
+        image: 'assets/img/portfolio/spndk1.png',
+        specs: [
+          'Model: Gelombang 11 Bulat',
+          'Material: Baja Galvalume Premium',
+          'Ketebalan: 0.20mm - 0.35mm',
+          'Lebar Efektif: 750mm',
+          'Panjang: Custom sesuai kebutuhan',
+          'Warna: Tersedia berbagai pilihan',
+          'Proteksi: Anti karat & UV protection',
+          'Garansi: 10 tahun'
+        ]
+      },
+      'spandek-2': {
+        name: 'Spandek 2',
+        description: 'Spandek profil standar dengan kekuatan tinggi dan daya tahan optimal untuk berbagai jenis konstruksi.',
+        image: 'assets/img/portfolio/spndk2.png',
+        specs: [
+          'Model: Profil Standar',
+          'Material: Baja Galvalume Z275',
+          'Ketebalan: 0.25mm - 0.40mm',
+          'Lebar Efektif: 800mm',
+          'Sistem Pengunci: Presisi tinggi',
+          'Performa: Anti karat & tahan lama',
+          'Aplikasi: Cocok untuk atap dan dinding',
+          'Standar: SNI 8093:2014'
+        ]
+      },
+      'spandek-gelombang-kotak': {
+        name: 'Spandek Gelombang Kotak',
+        description: 'Spandek dengan profil gelombang kotak yang modern dan kuat, memberikan tampilan yang elegan serta performa struktural yang superior.',
+        image: 'assets/img/portfolio/spndk3.png',
+        specs: [
+          'Model: Gelombang Kotak',
+          'Design: Modern dan elegan',
+          'Material: Baja High Quality G550',
+          'Ketebalan: 0.30mm - 0.45mm',
+          'Struktur: Kuat dan kokoh',
+          'Daya Tahan: Tahan cuaca ekstrem',
+          'Aesthetic: Tampilan premium',
+          'Installation: Mudah dan cepat'
+        ]
+      },
+      'bubble-1': {
+        name: 'Bubble 1',
+        description: 'Isolasi bubble foil single layer untuk insulasi termal yang efektif dan hemat energi. Mengurangi transfer panas hingga 70% dan cocok untuk aplikasi perumahan.',
+        image: 'assets/img/portfolio/buble1.png',
+        specs: [
+          'Tipe: Isolasi Bubble Foil Single Layer',
+          'Material: Aluminum Foil + Gelembung Polyethylene',
+          'Ketebalan: 3mm - 5mm',
+          'Reflektivitas: Tinggi (95% heat reflection)',
+          'Performa: Tahan air dan uap',
+          'Pemasangan: Mudah dan cepat',
+          'Aplikasi: Atap, dinding, plafon',
+          'Efisiensi: Hemat energi AC hingga 30%'
+        ]
+      },
+      'bubble-2': {
+        name: 'Bubble 2',
+        description: 'Bubble foil double layer dengan performa insulasi yang lebih optimal untuk kebutuhan industri dan komersial.',
+        image: 'assets/img/portfolio/buble2.png',
+        specs: [
+          'Tipe: Bubble Foil Double Layer',
+          'Konstruksi: Dual Layer Aluminum Foil',
+          'Ketebalan: 5mm - 8mm',
+          'Insulasi: Ganda lebih efektif',
+          'Keamanan: Tahan api kelas 1',
+          'Aplikasi: Industri dan komersial',
+          'Daya Tahan: UV resistant',
+          'Standard: ASTM C1313 compliant'
+        ]
+      },
+      'bubble-3': {
+        name: 'Bubble 3',
+        description: 'Bubble foil premium dengan teknologi terbaru untuk insulasi maksimal dan daya tahan superior.',
+        image: 'assets/img/portfolio/buble3.png',
+        specs: [
+          'Tipe: Bubble Foil Premium',
+          'Teknologi: Triple Layer Advanced',
+          'Ketebalan: 8mm - 12mm',
+          'Fungsi: Insulasi termal & akustik',
+          'Material: Food grade quality',
+          'Garansi: 10 tahun performa',
+          'Aplikasi: Khusus & high-end',
+          'Certification: ISO 9001:2015'
+        ]
+      },
+      'roof-tile-1': {
+        name: 'Roof Tile 1',
+        description: 'Genteng metal model flat dengan desain minimalis yang cocok untuk rumah modern.',
+        image: 'assets/img/portfolio/rf1.png',
+        specs: [
+          'Model: Genteng Metal Flat',
+          'Design: Minimalis modern',
+          'Material: Zincalume Steel AZ150',
+          'Sistem: Pengunci presisi',
+          'Warna: Cerah tahan lama',
+          'Perawatan: Mudah dan praktis',
+          'Aplikasi: Residential modern',
+          'Variasi: 12 pilihan warna'
+        ]
+      },
+      'roof-tile-2': {
+        name: 'Roof Tile 2',
+        description: 'Genteng metal gelombang dengan kekuatan struktural yang tinggi dan drainase air yang optimal.',
+        image: 'assets/img/portfolio/rf2.png',
+        specs: [
+          'Model: Genteng Metal Gelombang',
+          'Fitur: Gelombang optimal drainase',
+          'Material: Galvalume coated G300',
+          'Proteksi: Anti bocor & tahan angin',
+          'Sistem: Pemasangan interlock',
+          'Aplikasi: Daerah hujan tinggi',
+          'Kekuatan: Wind uplift resistance',
+          'Certification: ISO 1461'
+        ]
+      },
+      'roof-tile-3': {
+        name: 'Roof Tile 3',
+        description: 'Genteng metal timbul dengan tekstur tiga dimensi yang memberikan kesan mewah dan elegan.',
+        image: 'assets/img/portfolio/rf3.png',
+        specs: [
+          'Model: Genteng Metal Timbul',
+          'Texture: 3D elegan premium',
+          'Material: Color coated steel',
+          'Ketebalan: 0.35mm - 0.50mm',
+          'Tampilan: Mewah seperti keramik',
+          'Berat: Ringan dan kuat',
+          'Aplikasi: Premium residential',
+          'Varian: 8 texture patterns'
+        ]
+      },
+      'pvc-1': {
+        name: 'PVC 1',
+        description: 'Material PVC premium dengan kualitas terbaik untuk berbagai aplikasi bangunan.',
+        image: 'assets/img/portfolio/pvc1.png',
+        specs: [
+          'Jenis: Material PVC Premium',
+          'Kualitas: Grade A import',
+          'Ketebalan: 2mm - 5mm',
+          'Daya Tahan: Tahan cuaca & UV',
+          'Proteksi: Anti jamur dan serangga',
+          'Aplikasi: Plafon, partisi, dinding',
+          'Pemeliharaan: Mudah dibersihkan',
+          'Standard: JIS K6745 compliant'
+        ]
+      },
+      'pvc-2': {
+        name: 'PVC 2',
+        description: 'Material PVC varian 2 dengan karakteristik khusus untuk kebutuhan spesifik proyek Anda.',
+        image: 'assets/img/portfolio/pvc2.png',
+        specs: [
+          'Jenis: PVC Varian 2 Special',
+          'Formula: Special composition',
+          'Ketebalan: 3mm - 6mm',
+          'Keamanan: Fire retardant class B',
+          'Akustik: Sound absorption',
+          'Instalasi: Easy installation system',
+          'Aplikasi: Commercial projects',
+          'Certification: UL94 V-0'
+        ]
+      },
+      'pvc-3': {
+        name: 'PVC 3',
+        description: 'Material PVC varian 3 dengan fitur tambahan untuk performa optimal dalam berbagai kondisi.',
+        image: 'assets/img/portfolio/pvc3.png',
+        specs: [
+          'Jenis: PVC Varian 3 Enhanced',
+          'Grade: Enhanced performance',
+          'Ketebalan: 4mm - 8mm',
+          'Proteksi: Waterproof & moisture',
+          'Daya Tahan: High impact resistance',
+          'Perawatan: Maintenance free',
+          'Aplikasi: Special applications',
+          'Warranty: 15 years limited'
+        ]
+      }
+    };
+
+    // Function to load product detail
+    function loadProductDetail() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const productId = urlParams.get('product');
+      
+      if (productId && productDetailsData[productId]) {
+        const product = productDetailsData[productId];
+        
+        // Update page content
+        document.getElementById('detailProductImage').src = product.image;
+        document.getElementById('detailProductImage').alt = product.name;
+        document.getElementById('detailProductName').textContent = product.name;
+        document.getElementById('detailProductDescription').textContent = product.description;
+        document.title = product.name + ' - TIGER STAR INDONESIA';
+        
+        // Update specs
+        const specsList = document.getElementById('detailProductSpecs');
+        specsList.innerHTML = '';
+        product.specs.forEach(spec => {
+          const li = document.createElement('li');
+          li.innerHTML = `<i class="bi bi-check-circle"></i> ${spec}`;
+          specsList.appendChild(li);
+        });
+        
+      } else {
+        document.getElementById('detailProductName').textContent = 'Produk Tidak Ditemukan';
+        document.getElementById('detailProductDescription').textContent = 'Maaf, produk yang Anda cari tidak ditemukan.';
+      }
+      
+      // Update year
+      document.getElementById('currentYear').textContent = new Date().getFullYear();
+    }
+
+    // Load when page ready
+    document.addEventListener('DOMContentLoaded', loadProductDetail);
+  </script>
+
+</body>
+</html>
