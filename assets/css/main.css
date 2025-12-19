@@ -202,6 +202,56 @@ h6 {
   --background-color: #000000;
 }
 
+/* --- PERBAIKAN HEADER & LOGO MOBILE --- */
+
+/* Pengaturan Header secara umum agar rapi di tengah */
+.header .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px; /* Memberi ruang napas di pinggir */
+}
+
+/* Merapikan Logo dan Teks agar sejajar */
+.header .logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 10px; /* Jarak antara logo bulat dan tulisan */
+}
+
+/* Mengatur ukuran logo lingkaran di HP */
+.header .logo div {
+  height: 35px !important; /* Ukuran lebih pas untuk HP */
+  width: 35px !important;
+  flex-shrink: 0; /* Mencegah logo gepeng */
+}
+
+/* Mengatur ukuran teks judul agar tidak kebesaran */
+.header .logo h1.sitename {
+  font-size: 16px !important; /* Ukuran font lebih proporsional */
+  margin: 0;
+  line-height: 1;
+  font-weight: 700;
+  white-space: nowrap; /* Mencegah teks turun ke bawah */
+}
+
+/* Menyeimbangkan posisi tombol menu hamburger */
+.mobile-nav-toggle {
+  font-size: 24px;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  color: var(--nav-color);
+}
+
+/* Perbaikan khusus layar sangat kecil (di bawah 360px) */
+@media (max-width: 360px) {
+  .header .logo h1.sitename {
+    font-size: 14px !important;
+  }
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
