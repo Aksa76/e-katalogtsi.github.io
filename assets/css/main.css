@@ -1,4 +1,3 @@
-
 /**
 * Template Name: AnandaPA
 * Template URL: https://bootstrapmade.com/AnandaPA-bootstrap-corporate-template/
@@ -223,14 +222,14 @@ h6 {
 
 /* Mengatur ukuran logo lingkaran di HP */
 .header .logo div {
-  height: 35px !important; /* Ukuran lebih pas untuk HP */
-  width: 35px !important;
+  height: 60px !important; /* Ukuran lebih pas untuk HP */
+  width: 60px !important;
   flex-shrink: 0; /* Mencegah logo gepeng */
 }
 
 /* Mengatur ukuran teks judul agar tidak kebesaran */
 .header .logo h1.sitename {
-  font-size: 16px !important; /* Ukuran font lebih proporsional */
+  font-size: 25px !important; /* Ukuran font lebih proporsional */
   margin: 0;
   line-height: 1;
   font-weight: 700;
@@ -2262,50 +2261,3 @@ section,
   }
 }
 
-/* --- TAMPILAN 2 KOLOM PRODUK DI HP --- */
-@media (max-width: 768px) {
-  /* Mengurangi jarak antar kotak agar tidak terlalu renggang */
-  .portfolio .isotope-container {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  
-  .portfolio .portfolio-item {
-    padding-left: 5px !important;
-    padding-right: 5px !important;
-    margin-bottom: 10px !important;
-  }
-
-  .portfolio .portfolio-content {
-    border-radius: 8px;
-    overflow: hidden;
-    height: 100% !important;
-    display: flex;
-    flex-direction: column;
-  }
-
-  /* Menyesuaikan tinggi gambar agar seragam */
-  .portfolio .portfolio-content img {
-    height: 140px !important; /* Tinggi gambar di mode 2 kolom */
-    object-fit: contain !important;
-    background: #fff;
-    padding: 10px;
-  }
-
-  /* Merapikan teks keterangan produk */
-  .portfolio .portfolio-info {
-    padding: 8px !important;
-    flex-grow: 1;
-  }
-
-  .portfolio .portfolio-info h4 {
-    font-size: 13px !important; /* Teks nama produk diperkecil */
-    line-height: 1.2 !important;
-    margin-bottom: 4px !important;
-  }
-
-  .portfolio .portfolio-info p {
-    font-size: 10px !important; /* Teks deskripsi diperkecil */
-    margin: 0 !important;
-  }
-}
