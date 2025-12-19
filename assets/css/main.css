@@ -1189,6 +1189,8 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
+
+
 .portfolio .portfolio-filters {
   padding: 0 0 20px 0;
   margin: 0 auto;
@@ -1227,11 +1229,20 @@ section,
   }
 }
 
+/* SAMAKAN AREA GAMBAR PRODUK */
+.portfolio .portfolio-content a {
+  display: block;
+  height: auto !important;
+}
 .portfolio .portfolio-content {
   background-color: var(--surface-color);
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-  height: 100%;
+  height: auto !important;
   overflow: hidden;
+}
+
+.portfolio .portfolio-info {
+  padding: 10px 14px !important;
 }
 
 .portfolio .portfolio-content img {
@@ -1239,11 +1250,10 @@ section,
   position: relative;
   z-index: 1;
 }
-
 .portfolio .portfolio-content .portfolio-info {
   background-color: var(--background-color);
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  padding: 25px 20px;
+  padding: 12px 15px;   /* DIPERKECIL */
   position: relative;
   z-index: 2;
 }
@@ -1251,7 +1261,8 @@ section,
 .portfolio .portfolio-content .portfolio-info h4 {
   font-size: 18px;
   font-weight: 600;
-  padding-right: 50px;
+  padding-right: 4px;
+  padding-right: 0;
 }
 
 .portfolio .portfolio-content .portfolio-info h4 a {
@@ -1265,14 +1276,24 @@ section,
 
 .portfolio .portfolio-content .portfolio-info p {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
-  font-size: 14px;
+  font-size: 13px;
+  line-height: 1.3;    /* RAPAT */
   margin-bottom: 0;
-  padding-right: 50px;
+  padding-right: 0;
 }
 
 .portfolio .portfolio-content:hover img {
   transform: scale(1.1);
 }
+
+.portfolio .portfolio-info h4 {
+    margin: 0 !important;
+}
+
+.portfolio .portfolio-info p {
+  line-height: 1.2;
+}
+
 
 /*--------------------------------------------------------------
 # Pricing Section
@@ -1935,3 +1956,258 @@ section,
     font-size: 40px;
     color: #2e86ff;
   }
+@media (max-width: 768px) {
+  .hero .carousel-container {
+    inset: 80px 20px 40px 20px !important;
+    padding: 20px;
+  }
+  
+  .hero h2 {
+    font-size: 28px !important;
+    margin-bottom: 15px;
+    line-height: 1.3;
+  }
+  
+  .hero p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .hero .btn-get-started {
+    padding: 10px 25px;
+    font-size: 14px;
+    margin: 5px;
+  }
+}
+@media (max-width: 1199px) {
+  /* Header height fix */
+  .header {
+    padding: 10px 0;
+  }
+  
+  .header .logo img {
+    max-height: 30px;
+  }
+  
+  .header .logo h1 {
+    font-size: 24px;
+  }
+  
+  /* Navigation menu mobile */
+  .navmenu ul {
+    inset: 50px 15px 15px 15px !important;
+    padding: 15px 0;
+  }
+  
+  .navmenu a,
+  .navmenu a:focus {
+    padding: 12px 15px;
+    font-size: 16px;
+  }
+  
+  .mobile-nav-toggle {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+  
+  .btn-getstarted {
+    padding: 6px 15px !important;
+    font-size: 13px !important;
+    margin: 0 10px 0 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  .portfolio .portfolio-content {
+    margin-bottom: 20px;
+    height: auto !important;
+  }
+  
+  .portfolio .portfolio-content img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .portfolio .portfolio-info {
+    padding: 10px !important;
+  }
+  
+  .portfolio .portfolio-info h4 {
+    font-size: 16px !important;
+    margin-bottom: 5px;
+  }
+  
+  .portfolio .portfolio-info p {
+    font-size: 12px !important;
+    line-height: 1.4;
+    margin: 0;
+  }
+}
+@media (max-width: 768px) {
+  section,
+  .section {
+    padding: 40px 0 !important;
+    scroll-margin-top: 70px;
+  }
+  
+  .section-title {
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 24px !important;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .page-title {
+    padding: 120px 0 50px 0 !important;
+  }
+  
+  .page-title h1 {
+    font-size: 32px !important;
+  }
+}
+@media (max-width: 768px) {
+  .services .service-item {
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .services .service-item .icon {
+    margin-right: 0;
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+  }
+  
+  .features .features-item {
+    margin-top: 30px !important;
+  }
+  
+  .features .features-item .content {
+    padding: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .footer .footer-newsletter {
+    padding: 30px 0;
+  }
+  
+  .footer .footer-newsletter h4 {
+    font-size: 20px;
+  }
+  
+  .footer .footer-newsletter .newsletter-form {
+    flex-direction: column;
+    padding: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .footer .footer-newsletter .newsletter-form input[type=email] {
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+  }
+  
+  .footer .footer-newsletter .newsletter-form input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 0;
+  }
+  
+  .footer .footer-top {
+    padding-top: 30px;
+  }
+  
+  .footer .social-links {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer .footer-links {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .contact .php-email-form,
+  .contact .info-item {
+    padding: 20px !important;
+    margin-bottom: 20px;
+  }
+  
+  .contact-box {
+    padding: 20px !important;
+    margin-bottom: 20px;
+  }
+  
+  .contact .php-email-form input,
+  .contact .php-email-form textarea {
+    font-size: 14px;
+    padding: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .scroll-top {
+    width: 35px;
+    height: 35px;
+    right: 10px;
+    bottom: 10px;
+  }
+  
+  .scroll-top i {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  
+  h1 { font-size: 28px !important; }
+  h2 { font-size: 24px !important; }
+  h3 { font-size: 20px !important; }
+  h4 { font-size: 18px !important; }
+  h5 { font-size: 16px !important; }
+  h6 { font-size: 14px !important; }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
+@media (max-width: 1199px) {
+  .language-dropdown {
+    margin: 10px 15px;
+    order: 4;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .navmenu .language-dropdown a {
+    justify-content: center;
+  }
+  
+  .navmenu .dropdown ul {
+    position: static !important;
+    display: none;
+    box-shadow: none;
+    margin: 10px 0;
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  #preloader:before {
+    width: 40px;
+    height: 40px;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+  }
+}
+
